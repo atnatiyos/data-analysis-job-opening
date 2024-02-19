@@ -1,0 +1,14 @@
+               DO IT IN PYTHON
+
+1 precentage requirement of each technical skills for all type of jobs
+2 percentage requirement of each skill for specific type of job (level,class,campany size,job type,type of contract,industry)
+3 to what type of job more applicants.( what are the most known skils by applicant)
+4 what type of skill a specific campany require the most.
+5 which skills are require together 
+6 based on location which type of jobs are more required at that location
+
+
+
+
+
+
