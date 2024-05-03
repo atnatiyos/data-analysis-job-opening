@@ -7,7 +7,7 @@ from dash import Dash, dcc, html, Input, Output
 
 
 app = Dash(__name__)
-
+server = app.server
 data_set = pandas.read_csv("https://docs.google.com/spreadsheets/d/1Y7PCYJB89TWe-h-IylolkcrH2OU9fN1qViSPYXH6X7M/gviz/tq?tqx=out:csv&sheet=final_data".format('1Y7PCYJB89TWe-h-IylolkcrH2OU9fN1qViSPYXH6X7M','final_data'))
 value_counts = data_set.groupby(['Company_Name' ]).size().reset_index(name='count')
 #print(value_counts.Company_Name[0])
